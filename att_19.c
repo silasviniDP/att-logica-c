@@ -16,7 +16,13 @@ int main(){
     printf("Digite o terceiro número: ");
     scanf("%d", &numero_3);
 
-    
+    if (numero_1 > numero_2 && numero_1 > numero_3) {
+        printf("O maior número é: %d\n", numero_1);
+    } else if (numero_2 > numero_1 && numero_2 > numero_3) {
+        printf("O maior número é: %d\n", numero_2);
+    } else {
+        printf("O maior número é: %d\n", numero_3);
+    }
 
     return 0;
 }

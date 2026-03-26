@@ -1,31 +1,80 @@
-# 📚 Questões de Lógica em C
+# 📘 Questões de Lógica em C
 
-Repositório criado para armazenar e organizar exercícios e questões resolvidas utilizando a linguagem **C**.
+Repositório com exercícios e atividades de **Lógica de Programação em C**.
+
+---
+
+## 📂 Estrutura
+
+📁 Cada arquivo representa:
+- 🧠 Exercícios de lógica
+- 💻 Implementações em linguagem C
+- 📚 Prática de conceitos básicos
+
+---
 
 ## 🚀 Objetivo
 
-Praticar lógica de programação e desenvolver habilidades na linguagem C por meio da resolução de problemas.
+Este repositório tem como foco:
 
-> A prática constante é essencial para evoluir na programação.
+- 🧠 Desenvolver o raciocínio lógico  
+- 💻 Praticar programação em C  
+- 📈 Evoluir na resolução de problemas  
+- 🎓 Apoiar estudos acadêmicos  
 
-## 🧠 Conteúdo
+---
 
-- Estruturas básicas (entrada/saída)
-- Condicionais (`if`, `else`)
-- Estruturas de repetição (`for`, `while`)
-- Exercícios de lógica
-- Problemas de nível básico ao intermediário
+## 🛠 Tecnologias
 
-## 🛠️ Tecnologias
+- 💻 Linguagem C  
+- 🧾 Compiladores (GCC, Dev-C++, VSCode, etc.)
 
-- Linguagem C
-- Compiladores como:
-  - GCC
-  - Dev-C++
-  - Code::Blocks
+---
 
-## 📂 Organização
+## 📌 Conteúdos abordados
 
-Os arquivos estão organizados por temas ou listas de exercícios.
+- 🔢 Variáveis e tipos de dados  
+- 🔁 Estruturas de repetição  
+- 🔀 Estruturas condicionais  
+- 📥 Entrada e saída de dados  
+- 🧮 Operações matemáticas  
 
-Exemplo:
+---
+
+## ✨ Padrão de organização
+
+Os exercícios seguem um padrão simples: att_número-da-questão.c
+
+---
+
+## 📝 Observações
+
+- 🧪 Repositório focado em prática
+- 🏗 Código pode evoluir com o tempo
+- 🔄 Atualizações frequentes conforme aprendizado
+
+---
+
+## 📎 Como executar
+
+1. Compile o código:
+
+gcc arquivo.c -o programa
+
+
+2. Execute:
+
+./programa
+
+
+---
+
+## 👨‍💻 Autor
+
+**Silas Vinícius**
+
+---
+
+## 🔥 Status do projeto
+
+🚧 Em desenvolvimento contínuo

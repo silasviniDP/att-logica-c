@@ -8,7 +8,14 @@ variem de 50 a 65 de 1 em 1. */
 int main(){
     setlocale(LC_ALL, "Portuguese");
 
-    int F, C
+    float C;
+
+    printf("--------Tabela--------\n");
+    printf("Fahrenheit  |  Celsius\n");
+    for (int F = 50; F <= 65; F++) {
+        C = 5.0 / 9.0 * (F - 32);
+        printf("   %d     |    %.1f\n", F, C);
+    }
 
     return 0;
 }

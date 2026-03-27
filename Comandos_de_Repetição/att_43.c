@@ -6,11 +6,13 @@ int main(){
     // 50 seg -> massa / 2
     
     int segundos = 0;
-    float massa, massa_final; 
+    float massa, massa_inicial, massa_final; 
 
     printf("Digite a massa inicial em gramas do material radioativo: ");
     scanf("%f", &massa);
-    printf("\nA massa inicial foi: %.2f\n", massa);
+
+    massa_inicial = massa;
+    printf("\nA massa inicial foi: %.2f\n", massa_inicial);
 
     while (massa >= 0.5) {
         massa = massa / 2;

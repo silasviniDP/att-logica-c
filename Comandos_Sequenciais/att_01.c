@@ -1,16 +1,11 @@
-#include <locale.h>
 #include <stdio.h>
 
-int main () {
-    setlocale(LC_ALL, "Portuguese");
-    
+int main () { 
     int x, y;
-    printf("Digite um número: ");
-    scanf("%d", &x);
-    printf("Digite outro número: ");
-    scanf("%d", &y);
 
-    printf("O valor da multiplicação é: %d", x * y);
-    
+    printf("Digite dois numeros e descubra o produto entre eles: ");
+    scanf("%d %d", &x, &y);
+    printf("O valor da multiplicação é: %d\n", x * y);
+
     return 0;
 }

@@ -2,21 +2,22 @@
 
 int main(){
 
-    float A, B, C, D;
+    int A, B, aux;
+    // aux é "auxiliar"
 
-    printf("Digite um numero: ");
-    scanf("%f", &A);
-    printf("Digite outro numero: ");
-    scanf("%f", &B);
-
-    C = B;
-    D = A;
+    printf("Digite dois numeros: ");
+    scanf("%d %d", &A, &B);
     
-    /*A = scanf("%f", &B);
-    B = scanf("%f", &A);*/
-
-    printf("\nAgora o primeiro numero se torna o segundo: %.1f\n", C);
-    printf("E o segundo numero se torna o primeiro: %.1f", D);
+    // essa área serve para aux guarda o valor de A
+    // A ficara vazia e recebera B
+    // E ai B se tornara A graças au aux.
+    aux = A;
+    A = B;
+    B = aux;
+    
+    printf("\nAgora o valores trocados\n");
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
 
     return 0;
 }

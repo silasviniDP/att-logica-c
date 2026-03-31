@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 int main(){
-    
-    float salario_fixo, total_vendas, comissao, salario_final;
-    
-    printf("Digite seu salario fixo: ");
-    scanf("%f", &salario_fixo);
-    printf("Digite o total de venda dos produtos neste mes: ");
-    scanf("%f", &total_vendas);
 
-    comissao = total_vendas * 0.15;
-    salario_final = salario_fixo + comissao;
+    float sf, totv, sff, comissao;
+    // sf é salário fixo.
+    // totv é total de vendas.
+    // sff é salário final.
 
-    printf("\nSeu salario fixo e: %.2f\n", salario_fixo);
-    printf("Seu salario final foi de: %.2f", salario_final);
-    
+    printf("Digite seu salario fixo: R$ ");
+    scanf("%f", &sf);
+    printf("Escreva quanto gerou o total de vendas deste mes: R$ ");
+    scanf("%f", &totv);
+
+    comissao = totv * 0.15; // 0.15 pois o vendedor recebe 15% de comissão do total de vendas.
+    sff = sf + comissao;
+
+    printf("Seu salario fixo e de: R$ %.2f\n", sf);
+    printf("E seu salario final e: R$ %.2f\n", sff);
+
     return 0;
 }

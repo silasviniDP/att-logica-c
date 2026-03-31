@@ -1,23 +1,15 @@
 #include <stdio.h>
-#include <locale.h>
-
-/* Fazer um algoritmo que calcule a média aritmética dos números 7, 8 e 9 e a média
-nos números 4, 5 e 6. Mostre a soma das duas médias e a média das médias. */
+#define m1 ((7 + 8 + 9) / 3)
+#define m2 ((4 + 5 + 6) / 3)
+#define mm (m1 + m2) / 2.0
+// m1 é 1° média, m2 é 2° média e mm é média das médias.
 
 int main(){
-    setlocale (LC_ALL, "Portuguese");
 
-    float media_1, media_2, soma_media, media_media;
-
-    media_1 = (7 + 8 + 9) / 3.0;
-    media_2 = (4 + 5 + 6) / 3.0;
-    soma_media = media_1 + media_2;
-    media_media = (media_1 + media_2) / 2.0;
-
-    printf("A média dos números 7, 8 e 9 é: %.1f\n", media_1);
-    printf("A média dos números 4, 5 e 6 é: %.1f\n", media_2);
-    printf("A soma entre as médias é: %.1f\n", soma_media);
-    printf("A média dessas duas médias é: %.1f\n", media_media);
+    printf("A primeira media e entre os numeros 7, 8 e 9.\n");
+    printf("A segunda media e entre os numeros 4, 5 e 6.\n\n");
+    printf("A soma da primeira media com a segunda e: %d\n", m1 + m2);
+    printf("E a media entre as 2 medias e igual a: %.1f\n", mm);
 
     return 0;
 }

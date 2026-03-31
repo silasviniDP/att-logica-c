@@ -2,20 +2,14 @@
 
 int main(){
 
-    int x, y, soma, produto, quociente;
+    int x, y;
 
-    printf("Digite um numero: ");
-    scanf("%d", &x);
-    printf("Digite outro numero: ");
-    scanf("%d", &y);
+    printf("Digite dois numeros: ");
+    scanf("%d %d", &x, &y);
 
-    soma = x + y;
-    produto = x * y;
-    quociente = x / y;
-
-    printf("A soma entre os dois numeros e: %d", soma);
-    printf("\nO produto entre os dois numeros e: %d", produto);
-    printf("\nO quociente entre os dois numeros e: %d", quociente);
+    printf("A soma entre os dois numeros e: %d\n", x + y);
+    printf("O produto entre os dois numeros e: %d\n", x * y);
+    printf("O quociente entre os dois numeros e: %d\n", x / y);
 
     return 0;
 }

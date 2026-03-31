@@ -1,23 +1,19 @@
 #include <stdio.h>
-#include <locale.h>
-
-/*  O preço de um automóvel é calculado pela soma do preço de fábrica, o preço dos
-impostos (45% do preço de fábrica) e a porcentagem do revendedor (28% do preço de fábrica).
-Fazer um algoritmo que leia o preço de fábrica. Calcule e mostre o preço final do carro. */
 
 int main(){
-    setlocale (LC_ALL, "Portuguese");
 
-    float preco_fabrica, impostos, porcentagem_revendedor, preco_final;
+    float paut, pf, impostos, pr;
+    /* paut é preço final do automóvel; pf é preço de fábrica
+    pr é porcentagem do revendedor. */
 
-    printf("Qual o preço de fábrica do seu automóvel: R$");
-    scanf("%f", &preco_fabrica);
+    printf("Digite o preco de fabrica do seu automovel: R$ ");
+    scanf("%f", &pf);
 
-    impostos = preco_fabrica * 0.45;
-    porcentagem_revendedor = preco_fabrica * 0.28;
-    preco_final = preco_fabrica + impostos + porcentagem_revendedor;
+    impostos = pf * 0.45;
+    pr = pf * 0.28;
+    paut = pf + impostos + pr;
 
-    printf("O preco final do seu automóvel é: R$%.2f\n", preco_final);
+    printf("\nO preco final calculado do seu carro e: R$ %.2f\n", paut);
 
     return 0;
 }

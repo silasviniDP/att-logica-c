@@ -1,15 +1,15 @@
-#include <stdio.h>
+#include <stdio.h>;
 
 int main(){
-    
+
     float cm, pol;
 
-    printf("Digite um comprimento em cm: ");
-    scanf("%f", &cm);
+    printf("Digite um comprimento em centimetros: ");
+    scanf("%f" &cm);
 
-    pol = cm / 2.54;
+    pol = 2.54 * cm;
 
-    printf("\nEsse comprimento em polegadas e: %.2f", pol);
+    printf("Seu comprimento em polegadas e: %.2f\n", pol);
 
     return 0;
 }

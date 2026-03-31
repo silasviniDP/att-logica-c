@@ -2,18 +2,13 @@
 
 int main(){
 
-    int x, y, quociente, resto;
+    int x, y;
 
-    printf("Primeiro: ");
-    scanf("%d", &x);
-    printf("Segundo: ");
-    scanf("%d", &y);
+    printf("Digite dois numeros ");
+    scanf("%d %d", &x, &y);
 
-    quociente = x / y;
-    resto = x % y;
-
-    printf("Quociente: %d", quociente);
-    printf("\nResto: %d", resto);
+    printf("O quociente desses numeros e: %d\n", x / y);
+    printf("O resto destes numeros e: %d\n", x % y);
     
     return 0;
 }
